@@ -1,0 +1,18 @@
+
+
+
+Donate now and contribute button color: #FF5959
+Tk color name: #FF5959
+
+Background color of danate today: #FFFFFF
+
+3 difference background-color of our donate plan: 
+
+Food: #EDF5F6
+Shelter: #FFEEEE
+Education: #FFF4D6
+
+Updates section background color of #FFF4D6
+
+footer background-color: #0B0D17
+footer section text color be humble: #FF5959
