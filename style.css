@@ -270,27 +270,60 @@ a{
 	padding: 80px 0;
 }
 
-.email-box {
-	margin-bottom: 100px;
-	text-align: center;
-	background: #FFF4D6;
-	width: 800px;
-	height: 200px;
-	margin: 50px auto;
-	border-radius: 10px;
+.email-box-container {
+    text-align: center;
+    background: #FFF4D6;
+    width: 800px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 10px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.email-box input {
+.email-box {
+	width: 60%;
+	height: 50px;
+	background: gray;
+	position: relative;
+	border-radius: 5px;
+}
+.email {
+	position: absolute;
+	width: 70%;
+	height: 50px;
 	background: #D9D9D9;
 	border: none;
-	padding: 22px 50px;
-	border-radius: 5px;
 	outline: none;
-	margin-right: -5px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-    margin-top: 80px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	text-align: left;
+	padding: 0 20px;
+	border-radius: 5px 0 0 5px;
+}
+.subscribe {
+	position: absolute;
+	width: 30%;
+	height: 50px;
+	background: #FF5959;
+	border: none;
+	outline: none;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	padding: 0 20px;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
 }
 
 /* Footer Area */
