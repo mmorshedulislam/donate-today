@@ -41,6 +41,7 @@ a{
     text-align: center;
     color: #fff;
     opacity: .9;
+
 }
 .banner-area h1 {
 	font-family: 'Inter', sans-serif;
@@ -65,6 +66,7 @@ a{
 	border-radius: 5px;
 	font-size: 18px;
 	font-family: 'Inter', sans-serif;
+	display: inline-block;
 }
 
 /* ====== Donate Today Area====== */
@@ -210,11 +212,63 @@ a{
 }
 
 
+/* ====== Newsletter ======= */
 
+.newsletter-area{
+	padding: 80px 0;
+	background-color: #EDF5F6;
+}
+.newsletter-blogs{
+	display: flex;
+	justify-content: space-between;
+}
+.newsletter-single-blog{
+	width: 32%;
+}
+.newsletter-single-blog img {
+	border-radius: 10px;
+}
+.newsletter-single-blog p {
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+    color: #707070;
+
+}
+.newsletter-single-blog h3 a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	padding: 10px 0;
+	color: #1C180E;
+	display: block;
+
+}
+.author-date-box{
+	display: flex;
+	justify-content: space-between;
+}
+.author-date-box span{
+	font-size: 16px;
+	margin: 10px 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+.author-date-box span a{
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.author-date-box span:nth-child(2) {
+	font-size: 18px;
+	font-style: italic;
+	margin: 10px 0;
+}
 
 /* ======= Get My Updates ======== */
 
-.info-updates-area{}
+.info-updates-area{
+	padding: 80px 0;
+}
 
 .email-box {
 	margin-bottom: 100px;
@@ -243,7 +297,7 @@ a{
 
 footer{
     background-color: #0B0D17;
-    padding: 80px 0;
+    padding: 50px 0;
     text-align: center;
 }
 footer h2 {
